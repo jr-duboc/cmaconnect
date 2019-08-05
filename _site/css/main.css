@@ -168,18 +168,22 @@ header {
 			padding: 0;		
 		}
 
-	@media only screen and (min-width: 500px) {
+	@media only screen and (min-width: 660px) {
 		header ul {
+			margin-top: 5px;
+			font-size: 0.80em;
 			position: absolute;
 			padding: 15px 10px;
 			font-size: 0.8em;
 			justify-content: flex-end;
 		}
+			header h2 {
+				padding-right: 170px;	
+			}
 	}
-	@media only screen and (min-width: 760px) {
-		header ul {
-			margin-top: 5px;
-			font-size: 0.80em;
+	@media only screen and (min-width: 800px) {
+		header h2 {
+			max-width: 100%;
 		}
 	}
 .intro {
@@ -276,12 +280,17 @@ footer {
 /* Layout for bigger screens */
 @media (min-width: 1024px){
 	.intro {
-		background-image: url(../img/banner_background.png);
 		background-repeat: no-repeat;
-		background-position: top right;
+		background-position: center right;
 		padding-right: 520px;
 		min-height: 220px;
 	}
+		.intro.index {
+			background-image: url(../img/banner_background.png);
+		}
+		.intro.support {
+			background-image: url(../img/banner_background_2.png);
+		}
 }
 
 /* Fonts */
