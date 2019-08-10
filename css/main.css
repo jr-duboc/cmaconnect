@@ -230,17 +230,37 @@ header {
     margin-left: 10%;
 	}
 footer {
-	display: flex;
-	justify-content: space-between;
-	align-items: baseline;
-	padding-top: 20px;
-	padding-bottom: 15px;
+	padding: 20px 20px 15px 20px;
 }
-
-	footer img {
-		height: 70px;
-		margin: 0 15px;
+	
+	footer .sponsors {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 	}
+	footer p,
+	footer h3 {
+		text-align: center;
+		width: 100%;
+		padding: 0;
+		margin: 10px 0 0 0;
+	}
+	footer img {
+		height: 75px;
+		margin: 15px;
+	}
+		footer img.square {
+			width: 100px;
+			height: auto;
+		}
+		footer img.cma_logo {
+			width: 80%;
+			max-width: 290px;
+			height: auto;
+			margin: 10px auto;
+			display: block;
+		}
 /* Layout for tablets */
 
 @media (min-width: 900px){
@@ -274,7 +294,11 @@ footer {
     	max-width: 90%;
     	margin-left: 2%;
 	}
-
+	
+	footer .sponsors {
+		flex-direction: row;
+		align-items: baseline;
+	}
 }
 
 /* Layout for bigger screens */
