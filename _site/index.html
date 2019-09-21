@@ -84,11 +84,13 @@
   <footer>
 		<img src="img/cma_logo.png" alt="CMA" class="cma_logo" />
 		<p>CMA CONNECT FAREHAM - Registered Charity Number 1182335</p>
-		<h3>With the generous support of: </h3>
-		<div class="sponsors">
-			<img src="img/queen_award.png" alt="Queen's diamond jubilee voluntering award" class="square" />
-			<img src="img/allchurches_logo.png" alt="All churches trust limited"/>
-			<img src="img/love_portsmouth_logo.png" all="Love Portsmouth" />
+		<div class="sponsors-section">
+			<h3>With the generous support of: </h3>
+			<div class="sponsors-images">
+				<img src="img/cinnamon-network.png" alt="The Cinnamon Network"/>
+				<img src="img/allchurches_logo.png" alt="All churches trust limited"/>
+				<img src="img/love_portsmouth_logo.png" all="Love Portsmouth" />
+			</div>
 		</div>
   </footer>
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
@@ -97,12 +99,16 @@
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-148468745-1"></script>
+	<script>
+  	window.dataLayer = window.dataLayer || [];
+  	function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-148468745-1');
+	</script>
+
 </body>
 
 </html>

@@ -261,6 +261,20 @@ footer {
 			margin: 10px auto;
 			display: block;
 		}
+
+	footer .sponsors-section {
+		border-top: 1px solid #7c9daa;
+		padding: 30px 0 0 0;
+		margin: 30px 0 0 0;
+	}
+		footer .sponsors-images {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			width: 100%;
+			justify-content: center;
+		}
+
 /* Layout for tablets */
 
 @media (min-width: 900px){
@@ -293,11 +307,6 @@ footer {
 		.details ul {
     	max-width: 90%;
     	margin-left: 2%;
-	}
-	
-	footer .sponsors {
-		flex-direction: row;
-		align-items: baseline;
 	}
 }
 
