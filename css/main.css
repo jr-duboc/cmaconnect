@@ -229,16 +229,10 @@ header {
     max-width: 80%;
     margin-left: 10%;
 	}
+
 footer {
-	padding: 20px 20px 15px 20px;
+	padding: 20px 0 5px 0;
 }
-	
-	footer .sponsors {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
 	footer p,
 	footer h3 {
 		text-align: center;
@@ -246,14 +240,6 @@ footer {
 		padding: 0;
 		margin: 10px 0 0 0;
 	}
-	footer img {
-		height: 75px;
-		margin: 15px;
-	}
-		footer img.square {
-			width: 100px;
-			height: auto;
-		}
 		footer img.cma_logo {
 			width: 80%;
 			max-width: 290px;
@@ -261,19 +247,39 @@ footer {
 			margin: 10px auto;
 			display: block;
 		}
-
-	footer .sponsors-section {
-		border-top: 1px solid #7c9daa;
-		padding: 30px 0 0 0;
-		margin: 30px 0 0 0;
-	}
-		footer .sponsors-images {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			width: 100%;
-			justify-content: center;
+		footer .sponsors-section {
+			background: #FFF;
+			box-shadow: inset 0px 0px 5px 1px #aaa;
+			padding: 15px 0 0 0;
+			margin: 30px 0 0 0;
 		}
+			footer .sponsors-section h3 {
+				color: #578192;
+			}
+			footer .sponsors {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+				align-items: center;
+			}
+			footer .sponsors div {
+				width: 100%;
+			}
+			@media only screen and (min-width: 800px) {
+				footer .sponsors div {
+					width: 50%;
+				}
+			}
+			@media only screen and (min-width: 920px) {
+				footer .sponsors div {
+					width: 33.33%;
+				}
+			}
+					footer img {
+						height: 75px;
+						margin: 15px auto;
+						display: block;
+					}
 
 /* Layout for tablets */
 
