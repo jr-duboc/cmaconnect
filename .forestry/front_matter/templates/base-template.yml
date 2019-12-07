@@ -18,7 +18,7 @@ fields:
     required: false
     wysiwyg: true
     schema:
-      format: markdown
+      format: html-blocks
   label: Header Content
   description: 'This is the text that appears on top of the page '
   hidden: false
