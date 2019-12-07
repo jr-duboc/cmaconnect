@@ -64,3 +64,4 @@ fields:
   description: Main content bottom line
 pages:
 - index.html
+- support.html
