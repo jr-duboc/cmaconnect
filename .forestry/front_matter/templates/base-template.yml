@@ -52,5 +52,15 @@ fields:
       format: html-blocks
   label: 'Main content: column 2'
   description: Main content, second column
+- name: main_content__bottom
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: 'Main content: bottom'
+  description: Main content bottom line
 pages:
 - index.html
