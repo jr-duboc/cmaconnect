@@ -32,7 +32,30 @@
 		<h1>CMA Connect Fareham</h1>
 		<h2>Community Money Advice - Helping anyone worried about money or debt to access free, confidential debt advice.</h2>
 	</header>
-		{{ content }}
+	<section class="intro {{ page.id }}">
+		{{ page.header_content }}
+	</section>
+
+	<div class="page">
+
+		<section class="details">
+			{{ page.main_content_top }}
+
+			<div class="columns">
+				<div class="col"><div class="wrapper">	
+					{{ page.main_content__column_1 }}
+				</div></div>
+				<div class="col"><div class="wrapper">	
+					{{ page.main_content__column_2 }}
+				</div></div>
+				<div class="wrapper">	
+					<h3>Why are we here?</h3>
+					<p>Because we're a group of Christians who believe, even in the most difficult of times, there is hope for the future.</p>
+				</div>
+			</div><!-- end columns !-->
+		</section>	
+
+	</div><!--end page !-->
   <footer>
 		<img src="img/cma_logo.png" alt="CMA" class="cma_logo" />
 		<p>CMA CONNECT FAREHAM - Registered Charity Number 1182335</p>
