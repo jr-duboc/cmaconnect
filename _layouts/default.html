@@ -26,9 +26,13 @@
   <!-- Add your site or application content here -->
 	<header>
 		<ul>
-			<li><a href="./index.html" title="Need help with debt?">Need Help?</a></li>
-			<li><a href="./support.html" title="Support us">Support us</a></li>
+			{% for item in site.menus.header %}
+  		<li class="menu-item-{{ loop.index }}">
+    		<a href="{{ item.url }}" title="Go to {{ item.title }}">{{ item.title }}</a>
+  		</li>
+			{% endfor %}
 		</ul>
+		
 		<h1>CMA Connect Fareham</h1>
 		<h2>Community Money Advice - Helping anyone worried about money or debt to access free, confidential debt advice.</h2>
 	</header>
