@@ -32,3 +32,5 @@ fields:
       format: html-blocks
   label: Main content
   description: Main content of the page, below the banner
+pages:
+- index.html
