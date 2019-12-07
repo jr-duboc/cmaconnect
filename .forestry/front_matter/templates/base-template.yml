@@ -22,15 +22,25 @@ fields:
   label: Header Content
   description: 'This is the text that appears on top of the page '
   hidden: false
-- name: main_content
+- name: main_content_top
   type: textarea
   default: ''
   config:
     required: false
-    wysiwyg: false
+    wysiwyg: true
     schema:
       format: html-blocks
-  label: Main content
-  description: Main content of the page, below the banner
+  description: Main content of the page, below the banner, top section
+  label: 'Main Content: top'
+- name: main_content__column_1
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: 'Main content: column 1'
+  description: 'Main content: first column'
 pages:
 - index.html
