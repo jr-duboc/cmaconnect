@@ -1,5 +1,5 @@
 current directory: /home/jr/Dropbox/Projects/CMA/site_template/vendor/bundle/ruby/2.5.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
-/usr/bin/ruby2.5 -r ./siteconf20191207-9481-q90d3g.rb extconf.rb
+/usr/bin/ruby2.5 -r ./siteconf20200125-9709-h2pv52.rb extconf.rb
 creating Makefile
 
 current directory: /home/jr/Dropbox/Projects/CMA/site_template/vendor/bundle/ruby/2.5.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
@@ -13,4 +13,4 @@ linking shared-object ruby_http_parser.so
 
 current directory: /home/jr/Dropbox/Projects/CMA/site_template/vendor/bundle/ruby/2.5.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20191207-9481-1coujhe
+/usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20200125-9709-gwbi1t

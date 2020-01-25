@@ -1,5 +1,5 @@
 current directory: /home/jr/Dropbox/Projects/CMA/site_template/vendor/bundle/ruby/2.5.0/gems/ffi-1.11.3/ext/ffi_c
-/usr/bin/ruby2.5 -r ./siteconf20191207-12821-11tmp6y.rb extconf.rb
+/usr/bin/ruby2.5 -r ./siteconf20200125-9709-19lcby3.rb extconf.rb
 checking for ffi.h... no
 checking for ffi.h in /usr/local/include,/usr/include/ffi... no
 checking for shlwapi.h... no
@@ -152,4 +152,4 @@ compiling Types.c
 compiling Variadic.c
 compiling ffi.c
 linking shared-object ffi_c.so
-/usr/bin/install -c -m 0755 ffi_c.so ./.gem.20191207-12821-6klgne
+/usr/bin/install -c -m 0755 ffi_c.so ./.gem.20200125-9709-pxvh5m

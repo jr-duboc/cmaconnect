@@ -1,5 +1,1 @@
-
-plugins_dir:
-- jekyll-menus
-
 exclude: [vendor]

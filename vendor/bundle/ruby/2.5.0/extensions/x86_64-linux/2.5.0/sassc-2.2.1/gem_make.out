@@ -1,5 +1,5 @@
 current directory: /home/jr/Dropbox/Projects/CMA/site_template/vendor/bundle/ruby/2.5.0/gems/sassc-2.2.1/ext
-/usr/bin/ruby2.5 -r ./siteconf20191207-12821-1r8x6fh.rb extconf.rb
+/usr/bin/ruby2.5 -r ./siteconf20200125-9709-90n2ma.rb extconf.rb
 creating Makefile
 
 current directory: /home/jr/Dropbox/Projects/CMA/site_template/vendor/bundle/ruby/2.5.0/gems/sassc-2.2.1/ext
@@ -72,4 +72,4 @@ linking shared-object sassc/libsass.so
 
 current directory: /home/jr/Dropbox/Projects/CMA/site_template/vendor/bundle/ruby/2.5.0/gems/sassc-2.2.1/ext
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 libsass.so ./.gem.20191207-12821-1qmf62s/sassc
+/usr/bin/install -c -m 0755 libsass.so ./.gem.20200125-9709-6xo4em/sassc

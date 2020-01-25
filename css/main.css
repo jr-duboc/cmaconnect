@@ -275,6 +275,12 @@ footer {
 					width: 33.33%;
 				}
 			}
+					footer a {
+						width: 100%;
+						text-align: center;
+						display: block;
+					}
+
 					footer img {
 						height: 75px;
 						margin: 15px auto;
