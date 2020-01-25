@@ -26,11 +26,10 @@
   <!-- Add your site or application content here -->
 	<header>
 		<ul>
-			{% for item in site.menus.header %}
-  		<li class="menu-item-{{ loop.index }}">
-    		<a href="{{ item.url }}" title="Go to {{ item.title }}">{{ item.title }}</a>
+  		<li class="menu-item">
+    		<a href="/" title="Index">Index</a>
+				<a href="./support.html" title="Support Us">Support Us</a>
   		</li>
-			{% endfor %}
 		</ul>
 		
 		<h1>CMA Connect Fareham</h1>
@@ -63,6 +62,7 @@
   <footer>
 		<img src="img/cma_logo.png" alt="CMA" class="cma_logo" />
 		<p>CMA CONNECT FAREHAM - Registered Charity Number 1182335</p>
+		<a title="Privacy and Scecurity Policy" href="./privacy.html">Privacy Policy</a>
 		<div class="sponsors-section">
 			<h3>With the generous support of: </h3>
 			<div class="sponsors">
