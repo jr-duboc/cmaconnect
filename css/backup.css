@@ -1,0 +1,212 @@
+
+/* Layout - default (mobile first) */
+ul, li {
+	padding: 0;
+  margin: 0 0 0 0.5em
+}
+
+header, .intro, .page {
+	padding: 1em; 
+}
+
+header,footer {
+	background-image: url(../img/border.svg);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+header {
+	position: relative;
+}
+	header h1 {
+ 		margin: 0;
+		padding: 0;
+		font-size: 1em;
+	}
+	header h2 {
+		font-size: 0.7em;
+		margin-bottom: 0;
+	}
+	header ul {
+		font-family: 'League Spartan';
+		top: 0;
+		right: 0;
+		list-style-type: none;
+		padding: 0 0 15px 0;
+		margin: 0;
+		display: flex;
+		font-weight: bold;
+		font-size: 0.8em;
+		justify-content: flex-start;
+	}
+		header ul li {
+			margin: 0 10px 0 0;
+			padding: 0;		
+		}
+
+	@media only screen and (min-width: 660px) {
+		header ul {
+			margin-top: 5px;
+			font-size: 0.80em;
+			position: absolute;
+			padding: 15px 10px;
+			font-size: 0.8em;
+			justify-content: flex-end;
+		}
+			header h2 {
+				padding-right: 170px;	
+			}
+	}
+	@media only screen and (min-width: 800px) {
+		header h2 {
+			max-width: 100%;
+		}
+	}
+.intro {
+	background-color: #F6F8F8;
+	color: #578192;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	-webkit-box-shadow: inset 0px 0px 15px 1px #aaa; 
+	box-shadow: inset 0px 0px 15px 1px #aaa;
+}
+	.intro h2 {
+		padding: 0;
+		margin: 0;
+		color: #578192;	
+		text-transform: uppercase;
+	}
+	.intro p {
+		margin-top: 0;
+	}
+	.intro ul {}
+		.intro ul a {
+			color: #578192;
+		}
+
+.details {
+	text-align: center;
+}
+	.details img {
+    display: block;
+    margin: 10px auto 40px auto;
+	}
+	.details img.small {
+		height: 80px;
+	}
+	.details img.smaller {
+		height: 60px;
+	}
+	.details img.big {
+		height: 50px;
+	}
+	.details ul {
+    text-align: left;
+    max-width: 80%;
+    margin-left: 10%;
+	}
+
+footer {
+	padding: 20px 0 5px 0;
+}
+	footer p,
+	footer h3 {
+		text-align: center;
+		width: 100%;
+		padding: 0;
+		margin: 10px 0 0 0;
+	}
+		footer img.cma_logo {
+			width: 80%;
+			max-width: 290px;
+			height: auto;
+			margin: 10px auto;
+			display: block;
+		}
+		footer .sponsors-section {
+			background: #FFF;
+			box-shadow: inset 0px 0px 5px 1px #aaa;
+			padding: 15px 0 0 0;
+			margin: 30px 0 0 0;
+		}
+			footer .sponsors-section h3 {
+				color: #578192;
+			}
+			footer .sponsors {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+				align-items: center;
+			}
+			footer .sponsors div {
+				width: 100%;
+			}
+			@media only screen and (min-width: 800px) {
+				footer .sponsors div {
+					width: 50%;
+				}
+			}
+			@media only screen and (min-width: 920px) {
+				footer .sponsors div {
+					width: 33.33%;
+				}
+			}
+					footer a {
+						width: 100%;
+						text-align: center;
+						display: block;
+					}
+
+					footer img {
+						height: 75px;
+						margin: 15px auto;
+						display: block;
+					}
+/* Layout for tablets */
+@media (min-width: 900px){
+	.columns {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.col {
+		width: 50%;
+	}
+	
+		.col .wrapper {
+			padding: 0 2em 2em 0;
+		}
+
+		header h1{
+			margin-right: 20px
+		}
+		header h2 {
+			margin-top: 4px;
+		}
+
+	.details {
+		text-align: left;
+	}
+		.details img {
+			margin: 10px 0 40px 0;
+		}
+		.details ul {
+    	max-width: 90%;
+    	margin-left: 2%;
+	}
+}
+/* Layout for bigger screens */
+@media (min-width: 1024px){
+	.intro {
+		background-repeat: no-repeat;
+		background-position: center right;
+		padding-right: 520px;
+		min-height: 220px;
+	}
+		.intro.index {
+			background-image: url(../img/banner_background.png);
+		}
+		.intro.support {
+			background-image: url(../img/banner_background_2.png);
+		}
+}
+
